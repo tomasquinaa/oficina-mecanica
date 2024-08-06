@@ -1,5 +1,5 @@
 import { ReactNode } from "react"
-import { Header } from "../components/Header/Header"
+import { Navbar } from "../components/Navbar/Navbar"
 import { Footer } from "../components/Footer/Footer"
 
 type typeData = {
@@ -9,7 +9,7 @@ type typeData = {
 export const Layout = ({ children }: typeData) => {
     return (
         <>
-            <Header />
+            <Navbar />
                 {children}
             <Footer />
         </>

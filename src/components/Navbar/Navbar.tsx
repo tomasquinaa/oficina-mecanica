@@ -3,7 +3,7 @@ import { logos } from '../../utils/exportImg'
 import { routes } from '../../utils/menu'
 import './style.css'
 
-export const Header = () => {
+export const Navbar = () => {
     return (
         <>
             <div>
@@ -24,7 +24,7 @@ export const Header = () => {
                             <li><a href={routes.MENU_HOME}>Home</a></li>
                             <li><a href={routes.MENU_ABOUT}>Quem Somos</a></li>
                             <li><a href={routes.MENU_SERVICOS}>Serviços</a></li>
-                            <li><a href="#">Contato</a></li>
+                            <li><a href={routes.MENU_CONTACT}>Contato</a></li>
                         </ul>
                     </nav>
             </header>
