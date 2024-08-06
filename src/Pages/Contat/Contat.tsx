@@ -74,7 +74,7 @@ export const Contat = () => {
                             </div>
                             <div>
                                 <label className="block text-lg">Mensagem:</label>
-                                <textarea name="mensagem" className="w-full p-2 border border-gray-300 rounded" rows="5"></textarea>
+                                <textarea name="mensagem" className="w-full p-2 border border-gray-300 rounded" ></textarea>
                             </div>
                             <input type="submit" className="w-full p-2 bg-blue-600 text-white rounded cursor-pointer hover:bg-blue-700" value="Enviar" />
                         </form>
