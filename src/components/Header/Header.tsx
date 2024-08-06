@@ -1,5 +1,6 @@
 import { banners, logos } from '../../utils/exportImg'
-import './style.css'
+import { routes } from '../../utils/menu'
+//import './style.css'
 
 export const Header = () => {
     return (
@@ -19,10 +20,10 @@ export const Header = () => {
                         {/* BOTÃO DE FECHAR O MENU  */}
                         <span className="btn-close"><i className="fa fa-times"></i></span>
                         <ul>
-                            <li><a href="home.html">Home</a></li>
-                            <li><a href="quem-somos.html">Quem Somos</a></li>
-                            <li><a href="servico.html">Serviços</a></li>
-                            <li><a href="contato.html">Contato</a></li>
+                            <li><a href={routes.MENU_HOME}>Home</a></li>
+                            <li><a href={routes.MENU_ABOUT}>Quem Somos</a></li>
+                            <li><a href="#">Serviços</a></li>
+                            <li><a href="#">Contato</a></li>
                         </ul>
                     </nav>
             </header>
