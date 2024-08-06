@@ -19,7 +19,7 @@ export const Header = () => {
                         {/* BOTÃO DE FECHAR O MENU  */}
                         <span className="btn-close"><i className="fa fa-times"></i></span>
                         <ul>
-                            <li><a href="home.html">Home</a></li>
+                            <li><a href="home.html">HomeAAAAAA</a></li>
                             <li><a href="quem-somos.html">Quem Somos</a></li>
                             <li><a href="servico.html">Serviços</a></li>
                             <li><a href="contato.html">Contato</a></li>
