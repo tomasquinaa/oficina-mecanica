@@ -27,15 +27,15 @@ export const Contat = () => {
                                 <ul className="space-y-2">
                                     <li className="flex items-center space-x-2">
                                         <FaHome className="text-xl" />
-                                        <span>Rua Georgina Perreira da Silva, 315 - Franco da Rocha/SP</span>
+                                        <span>Rua Gago Coutinho, 50 Bairro Samba</span>
                                     </li>
                                     <li className="flex items-center space-x-2">
                                         <FaEnvelope className="text-xl" />
-                                        <span>oficinaoffroadgarage@gmail.com</span>
+                                        <span>badieselluanda@hotmail.com</span>
                                     </li>
                                     <li className="flex items-center space-x-2">
                                         <FaWhatsapp className="text-xl" />
-                                        <span>(11) 97368-7312</span>
+                                        <span>(+244) 925 582 203 / 916 073 945</span>
                                     </li>
                                 </ul>
                             </div>

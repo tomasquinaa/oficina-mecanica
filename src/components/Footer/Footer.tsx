@@ -1,4 +1,4 @@
-import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaWhatsapp, FaYoutube } from "react-icons/fa";
 import { cartVisa } from "../../utils/exportImg";
 import "./style.css"
 
@@ -20,10 +20,10 @@ export const Footer = () => {
               <span>humbertoadao@hotmail.com</span>
             </i>
           </li>
-          <li>
-            <i className="fab fa-whatsapp" aria-hidden="true">
+        
+          <li className="flex items-center space-x-2">
+              <FaWhatsapp className="text-xl bg-green-400" />
               <span>(+244) 925 582 203 / 916 073 945</span>
-            </i>
           </li>
         </ul>
 
@@ -45,6 +45,7 @@ export const Footer = () => {
                 <FaYoutube />
             </a>
           </li>
+    
         </ul>
 
         {/* menu do rodapé */}

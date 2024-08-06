@@ -20,13 +20,13 @@ export const About = () => {
                 <small>OFICINA MECÂNICA MULTIMARCAS</small>
               </h3>
               <p>
-                A Oficina Off Road Garage é uma oficina localizada em Franco da
+                A Oficina & Laboratório DIESEL é uma oficina localizada em Franco da
                 Rocha, com mais de um ano de experiência em diagnostico e
                 manutenção automotiva, de veiculos nacionais e
                 importados.Oferecemos outros tipos de serviço para seu
                 automóvel,sempre em busca de novas tecnologias para trazer
                 soluções para seu veiculo e o compromisso com a qualidade e o
-                melhor preço, faz a Oficina Off Road Garage uma oficina
+                melhor preço, faz a Oficina & Laboratório DIESELe uma oficina
                 especialista em clientes satisfeito.
               </p>
               <p className="funcionamento">
