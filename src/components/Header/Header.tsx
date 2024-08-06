@@ -1,4 +1,4 @@
-import { logos } from '../../utils/exportImg'
+import { banners, logos } from '../../utils/exportImg'
 import './style.css'
 
 export const Header = () => {
@@ -28,7 +28,7 @@ export const Header = () => {
             </header>
 
             <div className="cabecalho-banner">
-                <img src={logos.banner} alt="Banner da oficina off road garage" />
+                <img src={banners.banner} alt="Banner da oficina off road garage" />
             </div>
         </>
     )
