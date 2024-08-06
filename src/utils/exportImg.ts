@@ -28,6 +28,28 @@ import vw from "../assets/img/images/vw.png"
 // Cartao Visa
 import cartao from "../assets/img/images/cartao.png"
 
+// Quem Somos
+import agile from "../assets/img/images/agile.jpg"
+import bmw from "../assets/img/images/bmw.jpg"
+import cruze from "../assets/img/images/cruze.jpg"
+import honda from "../assets/img/images/honda.jpg"
+import punto from "../assets/img/images/punto.jpg"
+import ecoport from "../assets/img/images/ecoport.jpg"
+import local_1 from "../assets/img/images/local-1.jpeg"
+
+
+// Serviços
+import correiadentada from "../assets/img/images/correia-dentada.jpg"
+import cambio from "../assets/img/images/cambio.jpg"
+import embreagem from "../assets/img/images/embreagem.jpg"
+import freio from "../assets/img/images/freio.jpg"
+import injecaoeletronica from "../assets/img/images/injecao-eletronica.jpg"
+import mecanicageral from "../assets/img/images/mecanica-geral.png"
+import revisao from "../assets/img/images/revisao_principal.jpg"
+import trocaoleo from "../assets/img/images/troca-oleo.jpg"
+import suspensao from "../assets/img/images/suspensao.jpg"
+
+
 
 export const logos = {
   logo,
@@ -63,4 +85,27 @@ export const settings = {
 
 export const cartVisa = {
   cartao
+}
+
+
+export const AboutUs = {
+  agile,
+  bmw,
+  cruze,
+  honda,
+  punto,
+  ecoport,
+  local_1,
+}
+
+export const ServicoImgs = {
+  correiadentada,
+  cambio,
+  embreagem,
+  freio,
+  injecaoeletronica,
+  mecanicageral,
+  revisao,
+  trocaoleo,
+  suspensao
 }

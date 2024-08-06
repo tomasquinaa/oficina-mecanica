@@ -1,17 +1,14 @@
-import { Dashboard } from "./components/Dashboard/Dashboard"
-import { Footer } from "./components/Footer/Footer"
-import { Header } from "./components/Header/Header"
-
+import { BrowserRouter } from "react-router-dom";
+import { RouteComponent } from "./router";
 
 const App = () => {
-
   return (
     <>
-      <Header />
-      <Dashboard />
-      <Footer />
+      <BrowserRouter>
+        <RouteComponent />
+      </BrowserRouter>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

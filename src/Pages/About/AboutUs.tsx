@@ -1,17 +1,18 @@
+import { Layout } from '../../Layout/Layout';
+import { AboutUs } from '../../utils/exportImg';
+import './style.css'
+
 export const About = () => {
   return (
-    <>
+      <Layout>
       <div className="cabecalho-servicos">
         <h2>Quem Somos</h2>
       </div>
-
-      {/* conteúdo principal */}
-      <main>
+       {/* conteúdo principal */}
+       <main>
         <section>
           <div className="slider">
-            <img className="nature" src="image/local-1.jpeg" />
-            <img className="nature" src="image/local-2.jpeg" />
-            <img className="nature" src="image/local-3.jpeg" />
+            <img className="nature" src={AboutUs.local_1} />
           </div>
 
           <div className="sobre">
@@ -40,7 +41,7 @@ export const About = () => {
               <li>
                 <img
                   className="image-servicos"
-                  src="image/agile.jpg"
+                  src={AboutUs.agile}
                   alt="imagem3"
                 />
               </li>
@@ -48,7 +49,7 @@ export const About = () => {
               <li>
                 <img
                   className="image-servicos"
-                  src="image/bmw.jpg"
+                  src={AboutUs.bmw}
                   alt="imagem3"
                 />
               </li>
@@ -56,7 +57,7 @@ export const About = () => {
               <li>
                 <img
                   className="image-servicos"
-                  src="image/cruze-.jpg"
+                  src={AboutUs.cruze}
                   alt="imagem3"
                 />
               </li>
@@ -64,7 +65,7 @@ export const About = () => {
               <li>
                 <img
                   className="image-servicos"
-                  src="image/honda.jpg"
+                  src={AboutUs.honda}
                   alt="imagem3"
                 />
               </li>
@@ -72,7 +73,7 @@ export const About = () => {
               <li>
                 <img
                   className="image-servicos"
-                  src="image/punto.jpg"
+                  src={AboutUs.punto}
                   alt="imagem3"
                 />
               </li>
@@ -80,7 +81,7 @@ export const About = () => {
               <li>
                 <img
                   className="image-servicos"
-                  src="image/ecoport.jpg"
+                  src={AboutUs.ecoport}
                   alt="imagem3"
                 />
               </li>
@@ -88,6 +89,6 @@ export const About = () => {
           </div>
         </section>
       </main>
-    </>
+      </Layout>
   );
 };

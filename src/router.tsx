@@ -1,16 +1,17 @@
 import { Route, Routes } from "react-router-dom"
 import { About } from "./Pages/About/AboutUs"
 import { routes } from "./utils/menu"
-import { Dashboard } from "./components/Dashboard/Dashboard"
-
+import { Dashboard } from "./Pages/Dashboard/Dashboard"
+import { Servicos } from "./Pages/Servicos/Servicos"
 
 
 export const RouteComponent = () => {
     return (
         <>
             <Routes>
-                    <Route path={routes.MENU_HOME} element={<Dashboard/>} />
-                    <Route path={routes.MENU_ABOUT} element={<About/>} />
+                <Route path={routes.MENU_HOME} element={<Dashboard/>} />
+                <Route path={routes.MENU_ABOUT} element={<About/>} />
+                <Route path={routes.MENU_SERVICOS} element={<Servicos/>} />
             </Routes>
         </>
     )

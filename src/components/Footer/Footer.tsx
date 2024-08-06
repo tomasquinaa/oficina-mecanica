@@ -11,17 +11,18 @@ export const Footer = () => {
         <ul className="localizacao">
           <li>
             <i className="fa fa-home" aria-hidden="true">
-              <span>Rua Georgina Perreira da Silva,315-Franco da Rocha/SP</span>
+              <span>Rua Gago Coutinho, 50 Bairro Samba</span>
             </i>
           </li>
           <li>
             <i className="fa fa-envelope" aria-hidden="true">
-              <span>oficinaoffroadgarage@gmail.com</span>
+              <span>badieselluanda@hotmail.com</span> <br />
+              <span>humbertoadao@hotmail.com</span>
             </i>
           </li>
           <li>
             <i className="fab fa-whatsapp" aria-hidden="true">
-              <span>(11) 97368-7312</span>
+              <span>(+244) 925 582 203 / 916 073 945</span>
             </i>
           </li>
         </ul>
@@ -50,16 +51,16 @@ export const Footer = () => {
         <nav className="menu-rodape">
           <ul>
             <li>
-              <a href="home.html">Home</a>
+              <a href="#">Home</a>
             </li>
             <li>
-              <a href="quem-somos.html">Quem Somos</a>
+              <a href="#">Quem Somos</a>
             </li>
             <li>
-              <a href="servico.html">Serviços</a>
+              <a href="#">Serviços</a>
             </li>
             <li>
-              <a href="contato.html">Contato</a>
+              <a href="#">Contato</a>
             </li>
           </ul>
         </nav>

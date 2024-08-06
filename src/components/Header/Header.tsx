@@ -1,6 +1,7 @@
-import { banners, logos } from '../../utils/exportImg'
+
+import { logos } from '../../utils/exportImg'
 import { routes } from '../../utils/menu'
-//import './style.css'
+import './style.css'
 
 export const Header = () => {
     return (
@@ -22,15 +23,12 @@ export const Header = () => {
                         <ul>
                             <li><a href={routes.MENU_HOME}>Home</a></li>
                             <li><a href={routes.MENU_ABOUT}>Quem Somos</a></li>
-                            <li><a href="#">Serviços</a></li>
+                            <li><a href={routes.MENU_SERVICOS}>Serviços</a></li>
                             <li><a href="#">Contato</a></li>
                         </ul>
                     </nav>
             </header>
 
-            <div className="cabecalho-banner">
-                <img src={banners.banner} alt="Banner da oficina off road garage" />
-            </div>
         </>
     )
 }
